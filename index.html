@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saye - Reveal Your Next Move | Download Free on iOS + Android</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+    <div class="vignette" aria-hidden="true"></div>
+
+    <header class="sticky-header">
+      <div class="app-buttons">
+        <a href="#"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store"></a>
+        <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play"></a>
+      </div>
+    </header>
+
+    <main class="hero">
+      <header>
+        <h1>Six guides. One path forward.</h1>
+        <h2 class="subheadline">
+            Clear, personalized guidance for your most important decisions
+            <span class="no-break">in health, wealth, and relationships.</span>
+        </h2>
+      </header>
+
+      <div class="stack" id="stack">
+        <img class="card" src="saye-back.png" alt="Saye Card" draggable="false">
+        <canvas id="orbCanvas"></canvas>
+      </div>
+
+      <div class="feedback-container">
+        <p class="testimonial-quote">
+          "Low-key feels like the life hack for every decision."
+          <span>– William W., Verfied User</span>
+        </p>
+        <p class="star-rating">★★★★★</p>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright © 2025 <a href="https://sayelabs.com" target="_blank" rel="noopener noreferrer">Saye Labs</a>. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
